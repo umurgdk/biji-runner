@@ -1,0 +1,20 @@
+{
+  "devDependencies": {
+    "browserify": "^10.2.0",
+    "gulp-concat": "^2.5.2",
+    "gulp-connect": "^2.2.0",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-typescript": "^2.7.4",
+    "gulp-util": "^3.0.4",
+    "lodash": "^3.8.0",
+    "lodash.assign": "^3.1.0",
+    "tsify": "^0.10.2",
+    "typescript": "^1.5.0-beta",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.1"
+  },
+  "dependencies": {
+    "inversify": "^1.0.0"
+  }
+}

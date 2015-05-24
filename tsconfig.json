@@ -1,0 +1,25 @@
+{
+    "compilerOptions": {
+        "target": "es3",
+        "module": "commonjs",
+        "out": "./build/bundle.js",
+        "outDir": ".tmp"
+    },
+    "filesGlob": [
+        "./src/ts/**/*.ts",
+        "./typings/**/*.ts"
+    ],
+    "files": [
+        "./src/ts/Bootstrap.ts",
+        "./src/ts/Components/ObstacleManager.ts",
+        "./src/ts/Entities/IEntity.ts",
+        "./src/ts/Entities/Obstacle.ts",
+        "./src/ts/Entities/Platform.ts",
+        "./src/ts/Entities/Player.ts",
+        "./src/ts/GameStates/GamePlay.ts",
+        "./src/ts/NHRun.ts",
+        "./typings/bluebird/bluebird.d.ts",
+        "./typings/ramda.d.ts",
+        "./typings/tsd.d.ts"
+    ]
+}

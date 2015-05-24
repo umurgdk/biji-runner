@@ -1,0 +1,22 @@
+{
+  "name": "nazimhikmetrun",
+  "version": "0.0.0",
+  "authors": [
+    "Umur Gedik <umurgdk@gmail.com>"
+  ],
+  "main": "src/ts/Application.ts",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ramda": "~0.14.0",
+    "bluebird": "~2.9.25",
+    "pixi.js": "~3.0.6",
+    "phaser": "~2.3.0"
+  }
+}
